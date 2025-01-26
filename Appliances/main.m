@@ -14,10 +14,12 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"a is %@", a);
         
-        a.productName = @"Washing Machine";
-        a.voltage = 240;
+        [a setValue:@"Washing Machine" forKey:@"productName"];
+        [a setValue:@(240) forKey:@"voltage"];
         
         NSLog(@"a is %@", a);
+        
+        NSLog(@"the product name is %@", [a valueForKey:@"productName"]);
     }
     return 0;
 }

@@ -9,10 +9,10 @@
 
 @implementation BNRWallSafe
 
-- (instancetype)init
-{
-    [NSException raise:@"BNRWallSafeInitialization"
-                format:@"Use initWithSecretCode:, not init"];
-}
+//- (instancetype)init
+//{
+//    [NSException raise:@"BNRWallSafeInitialization"
+//                format:@"Use initWithSecretCode:, not init"];
+//}
 
 @end
