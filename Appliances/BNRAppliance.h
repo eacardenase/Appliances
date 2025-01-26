@@ -14,6 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *productName;
 @property (nonatomic) int voltage;
 
+- (instancetype)initWithProductName: (NSString *)pn;
+
 @end
 
 NS_ASSUME_NONNULL_END
