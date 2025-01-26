@@ -14,8 +14,8 @@
     self = [super init];
     
     if (self) {
-        _voltage = 120;
-        _productName = [pn copy];
+        [self setVoltage:120];
+        [self setProductName:[pn copy]];
     }
     
     return self;
