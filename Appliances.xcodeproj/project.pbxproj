@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A538164F2D45B73A00553F6E /* BNROwnedAppliance.m in Sources */ = {isa = PBXBuildFile; fileRef = A538164E2D45B73A00553F6E /* BNROwnedAppliance.m */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		A538163A2D45962500553F6E /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -21,6 +25,8 @@
 /* Begin PBXFileReference section */
 		A538163C2D45962500553F6E /* Appliances */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Appliances; sourceTree = BUILT_PRODUCTS_DIR; };
 		A53816462D45969800553F6E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A538164D2D45B73A00553F6E /* BNROwnedAppliance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BNROwnedAppliance.h; sourceTree = "<group>"; };
+		A538164E2D45B73A00553F6E /* BNROwnedAppliance.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BNROwnedAppliance.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -45,6 +51,8 @@
 		A53816332D45962500553F6E = {
 			isa = PBXGroup;
 			children = (
+				A538164D2D45B73A00553F6E /* BNROwnedAppliance.h */,
+				A538164E2D45B73A00553F6E /* BNROwnedAppliance.m */,
 				A53816462D45969800553F6E /* README.md */,
 				A538163E2D45962500553F6E /* Appliances */,
 				A538163D2D45962500553F6E /* Products */,
@@ -122,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A538164F2D45B73A00553F6E /* BNROwnedAppliance.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

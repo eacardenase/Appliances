@@ -11,7 +11,9 @@
 
 - (instancetype)initWithProductName:(NSString *)pn
 {
-    if (self = [super init]) {
+    self = [super init];
+    
+    if (self) {
         _voltage = 120;
         _productName = [pn copy];
     }
